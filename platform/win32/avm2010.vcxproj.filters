@@ -671,6 +671,26 @@
     <ClCompile Include="..\..\core\ObjectIO.cpp">
       <Filter>core</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\core\FixedHeapUtils.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\ConcurrencyGlue.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\Isolate.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\other-licenses\lzma\LzmaLib.c" />
+    <ClCompile Include="..\..\other-licenses\lzma\Alloc.c" />
+    <ClCompile Include="..\..\other-licenses\lzma\LzmaEnc.c" />
+    <ClCompile Include="..\..\other-licenses\lzma\LzFind.c" />
+    <ClCompile Include="..\..\other-licenses\lzma\LzmaDec.c" />
+    <ClCompile Include="..\..\shell\ShellWorkerGlue.cpp">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shell\ShellWorkerDomainGlue.cpp">
+      <Filter>shell</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\core\AbcEnv.h">

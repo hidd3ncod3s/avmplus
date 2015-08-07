@@ -6,7 +6,7 @@
 
 #include "avmplus.h"
 
-#include "FixedHeapUtils.cpp"
+#include "FixedHeapUtils.h"
 #include "Channels.cpp"
 #include "VMThread.h"
 
